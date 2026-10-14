@@ -1,0 +1,33 @@
+# --- Build de Maven ---
+target/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+out/
+
+# --- VS Code ---
+.vscode/
+
+# --- Eclipse ---
+.classpath
+.project
+.settings/
+bin/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Credenciales y configuración local (NUNCA subir) ---
+# Se versiona solo la plantilla (*.example.*), nunca el archivo real.
+.env
+.env.*
+!.env.example
+*.local.properties
+secrets.properties
+credentials.properties
+*.secret
